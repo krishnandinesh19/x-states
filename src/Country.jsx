@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "./countries.css";
+import styles from "./Country.module.css";
 
 const Country = () => {
   const [apiData, setApiData] = useState(null);
@@ -52,4 +52,4 @@ const Country = () => {
   );
 };
 
-export default Country;
+export default Country;

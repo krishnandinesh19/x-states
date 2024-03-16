@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./App.css";
-import CountryList from "./countries";
-import reportWebVitals from "./reportWebVitals";
+import "./index.css";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CountryList />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-reportWebVitals();

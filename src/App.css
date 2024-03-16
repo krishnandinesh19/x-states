@@ -1,0 +1,39 @@
+.input-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-box {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  font-size: 16px;
+}
+
+.main__div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.countryCard {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.countryCard img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.countryCard h2 {
+font-size: 18px;
+margin: 0;
+}
